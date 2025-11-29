@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Ancient Wisdom Meets Modern Technology",
+    "title": "Empowering Your Digital Future with",
+    "company": "AstraKodes",
+    "description": "Harness the power of ancient astras in the digital realm. We deliver cutting-edge solutions in Automation, AI, Web Development, and Software Engineering.",
+    "btnPrimary": "Explore Services",
+    "btnSecondary": "Get Started",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "support": "Support"
+    }
+  },
+  "services": {
+    "badge": "Our Expertise",
+    "title": "Powerful Solutions for Modern Challenges",
+    "description": "Like the divine astras of ancient times, our services are precision-crafted to solve your toughest challenges",
+    "automation": {
+      "title": "Automation",
+      "description": "Streamline your workflows with intelligent automation solutions. From RPA to custom scripts, we eliminate repetitive tasks and boost productivity.",
+      "features": ["Process Automation", "Workflow Optimization", "Integration Solutions"]
+    },
+    "ai": {
+      "title": "Artificial Intelligence",
+      "description": "Leverage the power of AI and machine learning to gain insights, predict trends, and make data-driven decisions that propel your business forward.",
+      "features": ["Machine Learning Models", "Natural Language Processing", "Computer Vision"]
+    },
+    "web": {
+      "title": "Web Development",
+      "description": "Create stunning, responsive websites and web applications that captivate users and drive engagement with modern frameworks and best practices.",
+      "features": ["Responsive Design", "Modern Frameworks", "Performance Optimization"]
+    },
+    "software": {
+      "title": "Software Development",
+      "description": "Build robust, scalable software solutions tailored to your unique needs. From mobile apps to enterprise systems, we deliver excellence.",
+      "features": ["Custom Software", "Mobile Applications", "Enterprise Solutions"]
+    }
+  },
+  "about": {
+    "badge": "About AstraKodes",
+    "title": "Where Ancient Power Meets Digital Innovation",
+    "paragraph1": "The name <strong>AstraKodes</strong> embodies our philosophy: combining the legendary precision and power of ancient astras (divine weapons) with modern coding excellence.",
+    "paragraph2": "Just as the Trishul, Sudarshan Chakra, and Gada were weapons of unmatched power in ancient times, our solutions are crafted to be precise, powerful, and transformative in the digital age.",
+    "features": [
+      {
+        "icon": "🎯",
+        "title": "Precision Engineering",
+        "description": "Every line of code crafted with purpose and accuracy"
+      },
+      {
+        "icon": "⚡",
+        "title": "Powerful Solutions",
+        "description": "Technology that drives real business transformation"
+      },
+      {
+        "icon": "🚀",
+        "title": "Future-Ready",
+        "description": "Scalable solutions built for tomorrow's challenges"
+      }
+    ],
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses with technology solutions that are as powerful and precise as the legendary astras of ancient times."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading force in digital transformation, wielding code as our weapon of choice to solve complex challenges."
+    }
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Ready to Transform Your Business?",
+    "description": "Let's discuss how AstraKodes can help you achieve your digital goals",
+    "location": "Location",
+    "locationText": "Your City, Your Country",
+    "email": "Email",
+    "emailText": "contact@astrakodes.com",
+    "phone": "Phone",
+    "phoneText": "+1 (555) 123-4567",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "tagline": "Ancient Wisdom, Modern Technology",
+    "services": "Services",
+    "company": "Company",
+    "connect": "Connect",
+    "aboutUs": "About Us",
+    "ourWork": "Our Work",
+    "copyright": "© 2025 AstraKodes. All rights reserved."
+  }
+}

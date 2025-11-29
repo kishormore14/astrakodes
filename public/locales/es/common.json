@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Sabiduría Antigua Encuentra Tecnología Moderna",
+    "title": "Potenciando Tu Futuro Digital con",
+    "company": "AstraKodes",
+    "description": "Aprovecha el poder de las antiguas astras en el ámbito digital. Ofrecemos soluciones de vanguardia en Automatización, IA, Desarrollo Web e Ingeniería de Software.",
+    "btnPrimary": "Explorar Servicios",
+    "btnSecondary": "Comenzar",
+    "stats": {
+      "projects": "Proyectos Entregados",
+      "clients": "Clientes Felices",
+      "support": "Soporte"
+    }
+  },
+  "services": {
+    "badge": "Nuestra Experiencia",
+    "title": "Soluciones Poderosas para Desafíos Modernos",
+    "description": "Como las astras divinas de la antigüedad, nuestros servicios están diseñados con precisión para resolver tus desafíos más difíciles",
+    "automation": {
+      "title": "Automatización",
+      "description": "Optimiza tus flujos de trabajo con soluciones de automatización inteligentes. Desde RPA hasta scripts personalizados, eliminamos tareas repetitivas.",
+      "features": ["Automatización de Procesos", "Optimización de Flujos", "Soluciones de Integración"]
+    },
+    "ai": {
+      "title": "Inteligencia Artificial",
+      "description": "Aprovecha el poder de la IA y el aprendizaje automático para obtener información, predecir tendencias y tomar decisiones basadas en datos.",
+      "features": ["Modelos de Aprendizaje", "Procesamiento de Lenguaje", "Visión por Computadora"]
+    },
+    "web": {
+      "title": "Desarrollo Web",
+      "description": "Crea sitios web y aplicaciones impresionantes y responsivas que cautivan a los usuarios con frameworks modernos y mejores prácticas.",
+      "features": ["Diseño Responsivo", "Frameworks Modernos", "Optimización de Rendimiento"]
+    },
+    "software": {
+      "title": "Desarrollo de Software",
+      "description": "Construye soluciones de software robustas y escalables adaptadas a tus necesidades únicas. Desde aplicaciones móviles hasta sistemas empresariales.",
+      "features": ["Software Personalizado", "Aplicaciones Móviles", "Soluciones Empresariales"]
+    }
+  },
+  "about": {
+    "badge": "Acerca de AstraKodes",
+    "title": "Donde el Poder Antiguo Encuentra la Innovación Digital",
+    "paragraph1": "El nombre <strong>AstraKodes</strong> encarna nuestra filosofía: combinar la precisión y el poder legendarios de las antiguas astras (armas divinas) con la excelencia en codificación moderna.",
+    "paragraph2": "Así como el Trishul, Sudarshan Chakra y Gada fueron armas de poder incomparable en la antigüedad, nuestras soluciones están diseñadas para ser precisas, poderosas y transformadoras en la era digital.",
+    "features": [
+      {
+        "icon": "🎯",
+        "title": "Ingeniería de Precisión",
+        "description": "Cada línea de código elaborada con propósito y precisión"
+      },
+      {
+        "icon": "⚡",
+        "title": "Soluciones Poderosas",
+        "description": "Tecnología que impulsa la transformación empresarial real"
+      },
+      {
+        "icon": "🚀",
+        "title": "Listo para el Futuro",
+        "description": "Soluciones escalables construidas para los desafíos del mañana"
+      }
+    ],
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Empoderar a las empresas con soluciones tecnológicas tan poderosas y precisas como las legendarias astras de la antigüedad."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Ser la fuerza líder en transformación digital, utilizando el código como nuestra arma de elección para resolver desafíos complejos."
+    }
+  },
+  "contact": {
+    "badge": "Ponte en Contacto",
+    "title": "¿Listo para Transformar Tu Negocio?",
+    "description": "Hablemos sobre cómo AstraKodes puede ayudarte a alcanzar tus objetivos digitales",
+    "location": "Ubicación",
+    "locationText": "Tu Ciudad, Tu País",
+    "email": "Correo",
+    "emailText": "contact@astrakodes.com",
+    "phone": "Teléfono",
+    "phoneText": "+1 (555) 123-4567",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Correo",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "tagline": "Sabiduría Antigua, Tecnología Moderna",
+    "services": "Servicios",
+    "company": "Empresa",
+    "connect": "Conectar",
+    "aboutUs": "Sobre Nosotros",
+    "ourWork": "Nuestro Trabajo",
+    "copyright": "© 2025 AstraKodes. Todos los derechos reservados."
+  }
+}
