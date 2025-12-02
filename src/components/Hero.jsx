@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero-content">
           <div className="hero-badge">
-            <span className="badge-icon">⚡</span>
+            <span className="badge-icon">🤖</span>
             <span>{t('hero.badge')}</span>
           </div>
           <h1 className="hero-title">
