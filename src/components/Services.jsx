@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next';
+import CircuitPattern from './CircuitPattern';
 
 export default function Services() {
   const { t } = useTranslation('common');
@@ -58,6 +59,7 @@ export default function Services() {
 
   return (
     <section id="services" className="services">
+      <CircuitPattern />
       <div className="container">
         <div className="section-header">
           <span className="section-badge">{t('services.badge')}</span>
