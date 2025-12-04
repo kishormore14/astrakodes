@@ -297,7 +297,7 @@ body {
     height: 100%;
     z-index: 0;
     pointer-events: none;
-    opacity: 0.15;
+    opacity: 0.4;
     overflow: hidden;
 }
 
@@ -308,7 +308,7 @@ body {
 }
 
 [data-theme="light"] .neural-network-bg {
-    opacity: 0.08;
+    opacity: 0.25;
 }
 
 /* Circuit Pattern for Services */
