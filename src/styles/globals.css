@@ -1408,4 +1408,20 @@ section {
         grid-template-columns: 1fr;
         gap: var(--spacing-lg);
     }
+
+    /* Mobile Weapon Adjustments */
+    .weapon {
+        opacity: 0.1;
+    }
+    
+    .weapon-1 { width: 75px; }
+    .weapon-2 { width: 60px; }
+    .weapon-3 { width: 70px; }
+    .weapon-4 { width: 65px; }
+    .weapon-5 { width: 55px; }
+    .weapon-6 { width: 80px; }
+    .weapon-7 { width: 60px; }
+    .weapon-8 { width: 70px; }
+    .weapon-9 { width: 65px; }
+    .weapon-10 { width: 75px; }
 }
