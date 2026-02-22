@@ -5,16 +5,16 @@ export default function WeaponsBackground() {
   const weaponsRef = useRef([]);
 
   const weapons = [
-    { src: '/images/trishul.png', className: 'weapon-1' },
-    { src: '/images/chakra.png', className: 'weapon-2' },
-    { src: '/images/gada.png', className: 'weapon-3' },
-    { src: '/images/sward.png', className: 'weapon-4' },
-    { src: '/images/brahmastra.png', className: 'weapon-5' },
-    { src: '/images/chakra.png', className: 'weapon-6' },
-    { src: '/images/trishul.png', className: 'weapon-7' },
-    { src: '/images/sward.png', className: 'weapon-8' },
-    { src: '/images/gada.png', className: 'weapon-9' },
-    { src: '/images/brahmastra.png', className: 'weapon-10' },
+    { src: '/Images/trishul.png', className: 'weapon-1' },
+    { src: '/Images/chakra.png', className: 'weapon-2' },
+    { src: '/Images/gada.png', className: 'weapon-3' },
+    { src: '/Images/sward.png', className: 'weapon-4' },
+    { src: '/Images/brahmastra.png', className: 'weapon-5' },
+    { src: '/Images/chakra.png', className: 'weapon-6' },
+    { src: '/Images/trishul.png', className: 'weapon-7' },
+    { src: '/Images/sward.png', className: 'weapon-8' },
+    { src: '/Images/gada.png', className: 'weapon-9' },
+    { src: '/Images/brahmastra.png', className: 'weapon-10' },
   ];
 
   return (
