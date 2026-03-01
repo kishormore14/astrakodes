@@ -6,10 +6,10 @@
                 "contact":  "Contact"
             },
     "hero":  {
-                 "badge":  "Ancient Wisdom Meets Modern Technology",
+                 "badge":  "AI-Driven Solutions for Modern Business",
                  "title":  "Empowering Your Digital Future with",
                  "company":  "AstraKodes",
-                 "description":  "Harness the power of ancient astras in the digital realm. We deliver cutting-edge solutions in Automation, AI, Web Development, and Software Engineering.",
+                 "description":  "Deliver cutting-edge solutions in Automation, AI, Web Development, and Software Engineering to help teams scale with confidence.",
                  "btnPrimary":  "Explore Services",
                  "btnSecondary":  "Get Started",
                  "stats":  {
@@ -22,7 +22,7 @@
     "services":  {
                      "badge":  "Our Expertise",
                      "title":  "Powerful Solutions for Modern Challenges",
-                     "description":  "Like the divine astras of ancient times, our services are precision-crafted to solve your toughest challenges",
+                     "description":  "Our services are precision-crafted to solve complex business challenges with speed and reliability.",
                      "automation":  {
                                         "title":  "Automation",
                                         "description":  "Streamline your workflows with intelligent automation solutions. From RPA to custom scripts, we eliminate repetitive tasks and boost productivity.",
@@ -62,9 +62,9 @@
                  },
     "about":  {
                   "badge":  "About AstraKodes",
-                  "title":  "Where Ancient Power Meets Digital Innovation",
-                  "paragraph1":  "The name \u003cstrong\u003eAstraKodes\u003c/strong\u003e embodies our philosophy: combining the legendary precision and power of ancient astras (divine weapons) with modern coding excellence.",
-                  "paragraph2":  "Just as the Trishul, Sudarshan Chakra, and Gada were weapons of unmatched power in ancient times, our solutions are crafted to be precise, powerful, and transformative in the digital age.",
+                  "title":  "Where Bold Ideas Meet Digital Innovation",
+                  "paragraph1":  "The name \u003cstrong\u003eAstraKodes\u003c/strong\u003e reflects our focus on precision engineering, strong execution, and modern software excellence.",
+                  "paragraph2":  "From AI platforms to enterprise software, our solutions are built to be reliable, scalable, and transformative for modern businesses.",
                   "features":  [
                                    {
                                        "icon":  "🎯",
@@ -84,7 +84,7 @@
                                ],
                   "mission":  {
                                   "title":  "Our Mission",
-                                  "description":  "To empower businesses with technology solutions that are as powerful and precise as the legendary astras of ancient times."
+                                  "description":  "To empower businesses with technology solutions that are precise, practical, and built for long-term growth."
                               },
                   "vision":  {
                                  "title":  "Our Vision",
@@ -110,7 +110,7 @@
                              }
                 },
     "footer":  {
-                   "tagline":  "Ancient Wisdom, Modern Technology",
+                   "tagline":  "AI-Driven Technology, Built to Scale",
                    "services":  "Services",
                    "company":  "Company",
                    "connect":  "Connect",
