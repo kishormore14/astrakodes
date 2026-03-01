@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 
 export default function WeaponsBackground() {
   const canvasRef = useRef(null);
@@ -19,13 +19,13 @@ export default function WeaponsBackground() {
 
   return (
     <>
-      <div className="weapons-background">
+      <div className="weapons-background" aria-hidden="true">
         {weapons.map((weapon, index) => (
           <img
             key={index}
             src={weapon.src}
             className={`weapon ${weapon.className}`}
-            alt={`Weapon ${index + 1}`}
+            alt=""
           />
         ))}
       </div>

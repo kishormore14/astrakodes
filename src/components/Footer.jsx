@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 
 export default function Footer() {
   const { t } = useTranslation('common');
@@ -17,18 +18,19 @@ export default function Footer() {
             <div className="footer-column">
               <h4>{t('footer.services')}</h4>
               <ul>
-                <li><a href="#services">{t('services.automation.title')}</a></li>
-                <li><a href="#services">{t('services.ai.title')}</a></li>
-                <li><a href="#services">{t('services.web.title')}</a></li>
-                <li><a href="#services">{t('services.software.title')}</a></li>
+                <li><Link href="/ai-development-services">AI Development Services</Link></li>
+                <li><Link href="/saas-development">SaaS Development</Link></li>
+                <li><Link href="/enterprise-software-development">Enterprise Software Development</Link></li>
+                <li><Link href="/mobile-app-development">Mobile App Development</Link></li>
+                <li><Link href="/iot-development">IoT Development</Link></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>{t('footer.company')}</h4>
               <ul>
-                <li><a href="#about">{t('footer.aboutUs')}</a></li>
-                <li><a href="#contact">{t('footer.contact')}</a></li>
-                <li><a href="#services">{t('footer.ourWork')}</a></li>
+                <li><Link href="/#about">{t('footer.aboutUs')}</Link></li>
+                <li><Link href="/#contact">{t('footer.contact')}</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
               </ul>
             </div>
             <div className="footer-column">

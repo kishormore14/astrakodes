@@ -1,11 +1,14 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import ThemeToggle from './ThemeToggle';
 import LanguageSelector from './LanguageSelector';
 
 export default function Navbar() {
   const { t } = useTranslation('common');
+  const router = useRouter();
+  const isHomePage = router.pathname === '/';
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -30,6 +33,8 @@ export default function Navbar() {
     }
   };
 
+  const getSectionHref = (id) => (isHomePage ? `#${id}` : `/#${id}`);
+
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
@@ -40,10 +45,27 @@ export default function Navbar() {
             </Link>
           </div>
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
-            <li><a href="#home" onClick={(e) => scrollToSection(e, 'home')} className="nav-link">{t('nav.home')}</a></li>
-            <li><a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="nav-link">{t('nav.services')}</a></li>
-            <li><a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="nav-link">{t('nav.about')}</a></li>
-            <li><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="nav-link">{t('nav.contact')}</a></li>
+            <li>
+              <a href={getSectionHref('home')} onClick={(e) => isHomePage && scrollToSection(e, 'home')} className="nav-link">
+                {t('nav.home')}
+              </a>
+            </li>
+            <li>
+              <a href={getSectionHref('services')} onClick={(e) => isHomePage && scrollToSection(e, 'services')} className="nav-link">
+                {t('nav.services')}
+              </a>
+            </li>
+            <li>
+              <a href={getSectionHref('about')} onClick={(e) => isHomePage && scrollToSection(e, 'about')} className="nav-link">
+                {t('nav.about')}
+              </a>
+            </li>
+            <li>
+              <a href={getSectionHref('contact')} onClick={(e) => isHomePage && scrollToSection(e, 'contact')} className="nav-link">
+                {t('nav.contact')}
+              </a>
+            </li>
+            <li><Link href="/blog" className="nav-link">Blog</Link></li>
           </ul>
 
           <div className="nav-controls">

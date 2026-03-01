@@ -31,9 +31,9 @@ export default function Hero() {
             <span>{t('hero.badge')}</span>
           </div>
           <h1 className="hero-title">
-            {t('hero.title')}
+            AI-Driven Software Development Company
             <br />
-            <span className="gradient-text">AstraKodes</span>
+            <span className="gradient-text">for Startups and Enterprises</span>
           </h1>
           <p className="hero-description">
             {t('hero.description')}

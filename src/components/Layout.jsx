@@ -10,8 +10,10 @@ export default function Layout({ children }) {
       <NeuralNetworkBG />
       <WeaponsBackground />
       <AIParticles />
-      <Navbar />
-      <main>{children}</main>
+      <header>
+        <Navbar />
+      </header>
+      <main id="main-content">{children}</main>
       <Footer />
     </>
   );

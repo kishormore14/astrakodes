@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 import CircuitPattern from './CircuitPattern';
 
 export default function Services() {
@@ -56,6 +57,12 @@ export default function Services() {
       )
     }
   ];
+  const serviceLinks = {
+    automation: '/enterprise-software-development',
+    ai: '/ai-development-services',
+    web: '/saas-development',
+    software: '/mobile-app-development',
+  };
 
   return (
     <section id="services" className="services">
@@ -83,6 +90,7 @@ export default function Services() {
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
+              <Link href={serviceLinks[service.key]} className="service-link">Explore service page</Link>
               <div className="service-hover-effect"></div>
             </div>
           ))}

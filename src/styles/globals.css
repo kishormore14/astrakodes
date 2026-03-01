@@ -1030,6 +1030,18 @@ section {
     font-weight: bold;
 }
 
+.service-link {
+    display: inline-block;
+    margin-top: var(--spacing-sm);
+    color: var(--color-accent-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.service-link:hover {
+    text-decoration: underline;
+}
+
 .service-hover-effect {
     position: absolute;
     top: 0;
@@ -1306,6 +1318,148 @@ section {
 }
 
 /* ===================================
+   Service Focus
+   =================================== */
+.service-focus {
+    background: var(--color-bg-secondary);
+}
+
+.service-focus-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.service-focus-item {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+}
+
+.service-focus-item h3 {
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.service-focus-item p {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+}
+
+.service-focus-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.service-focus-links a {
+    color: var(--color-accent-primary);
+    text-decoration: none;
+    border: 1px solid var(--color-border);
+    padding: 0.45rem 0.75rem;
+    border-radius: var(--radius-full);
+}
+
+.service-focus-links a:hover {
+    background: rgba(99, 102, 241, 0.1);
+}
+
+/* ===================================
+   SEO Landing Pages
+   =================================== */
+.page-hero {
+    padding: calc(var(--spacing-3xl) + 3rem) 0 var(--spacing-xl);
+    background: var(--color-bg-secondary);
+}
+
+.page-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-sm);
+}
+
+.page-intro {
+    max-width: 850px;
+    color: var(--color-text-secondary);
+    font-size: 1.08rem;
+}
+
+.page-content {
+    padding: var(--spacing-2xl) 0;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--spacing-md);
+}
+
+.content-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+}
+
+.content-card h2 {
+    font-size: 1.12rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.content-card p {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.content-card ul {
+    margin-left: 1rem;
+    color: var(--color-text-secondary);
+}
+
+.content-card li {
+    margin-bottom: 0.35rem;
+}
+
+.page-faq {
+    padding: 0 0 var(--spacing-2xl);
+}
+
+.cta-band {
+    background: var(--color-bg-secondary);
+    padding: var(--spacing-xl) 0 var(--spacing-2xl);
+}
+
+.cta-band h2 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta-band p {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+.cta-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.cta-links a {
+    color: var(--color-accent-primary);
+    text-decoration: none;
+    border: 1px solid var(--color-border);
+    padding: 0.5rem 0.85rem;
+    border-radius: var(--radius-full);
+}
+
+.cta-links a:hover {
+    background: rgba(99, 102, 241, 0.1);
+}
+
+/* ===================================
    Keyword Hub
    =================================== */
 .keyword-hub {
@@ -1512,6 +1666,14 @@ section {
     }
 
     .keyword-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-focus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content-grid {
         grid-template-columns: 1fr;
     }
 
