@@ -22,6 +22,17 @@ export default function Hero() {
     return () => document.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
+  const handleScrollToServices = () => {
+    const servicesSection = document.getElementById('services');
+    if (!servicesSection) return;
+
+    const offsetTop = servicesSection.offsetTop - 80;
+    window.scrollTo({
+      top: offsetTop,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <section id="home" className="hero" ref={heroRef}>
       <div className="container">
@@ -58,10 +69,10 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="hero-scroll">
+      <button type="button" className="hero-scroll" onClick={handleScrollToServices} aria-label="Scroll to services section">
         <span>{t('hero.scrollText')}</span>
         <div className="scroll-indicator"></div>
-      </div>
+      </button>
     </section>
   );
 }
