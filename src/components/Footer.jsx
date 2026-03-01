@@ -34,9 +34,10 @@ export default function Footer() {
             <div className="footer-column">
               <h4>{t('footer.connect')}</h4>
               <ul>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/company/astrakodes" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://x.com/astrakodes" target="_blank" rel="noopener noreferrer">X</a></li>
+                <li><a href="https://www.instagram.com/astrakodes" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@astrakodes" target="_blank" rel="noopener noreferrer">YouTube</a></li>
               </ul>
             </div>
           </div>

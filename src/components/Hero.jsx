@@ -10,7 +10,7 @@ export default function Hero() {
     const handleMouseMove = (e) => {
       const mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
       const mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
-      
+
       const weapons = document.querySelectorAll('.weapon');
       weapons.forEach((weapon, index) => {
         const speed = (index + 1) * 10;
@@ -23,11 +23,11 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="home" class="hero" ref={heroRef}>
+    <section id="home" className="hero" ref={heroRef}>
       <div className="container">
         <div className="hero-content">
           <div className="hero-badge">
-            <span className="badge-icon">🤖</span>
+            <span className="badge-icon">AI</span>
             <span>{t('hero.badge')}</span>
           </div>
           <h1 className="hero-title">

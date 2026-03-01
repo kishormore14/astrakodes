@@ -384,6 +384,11 @@ body {
     cursor: pointer;
 }
 
+.logo a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .logo-astra {
     color: var(--color-accent-gold);
     text-shadow: 0 0 20px rgba(251, 191, 36, 0.5);
@@ -441,6 +446,11 @@ body {
 .nav-link:hover::after,
 .nav-link.active::after {
     width: 100%;
+}
+
+.nav-controls {
+    display: flex;
+    align-items: center;
 }
 
 .menu-toggle {
@@ -1212,6 +1222,21 @@ section {
     font-size: 0.9rem;
 }
 
+.contact-card p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-card p a:hover {
+    color: var(--color-accent-primary);
+}
+
+.contact-address {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
 .contact-form {
     background: var(--color-bg-card);
     border: 1px solid var(--color-border);
@@ -1271,6 +1296,79 @@ section {
 
 .btn-submit:hover svg {
     transform: translateX(5px) translateY(-5px);
+}
+
+.contact-success-message {
+    margin-top: 1rem;
+    color: #10b981;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ===================================
+   Keyword Hub
+   =================================== */
+.keyword-hub {
+    background: var(--color-bg-secondary);
+}
+
+.keyword-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--spacing-md);
+}
+
+.keyword-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+}
+
+.keyword-card h3 {
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.05rem;
+}
+
+.keyword-card ul {
+    margin-left: 1rem;
+}
+
+.keyword-card li {
+    color: var(--color-text-secondary);
+    margin-bottom: 0.35rem;
+    font-size: 0.92rem;
+}
+
+/* ===================================
+   SEO FAQ
+   =================================== */
+.seo-faq {
+    background: var(--color-bg-primary);
+}
+
+.faq-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--spacing-md);
+}
+
+.faq-item {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+}
+
+.faq-item h3 {
+    font-size: 1.05rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-primary);
+}
+
+.faq-item p {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
 }
 
 /* ===================================
@@ -1407,6 +1505,14 @@ section {
     .footer-links {
         grid-template-columns: 1fr;
         gap: var(--spacing-lg);
+    }
+
+    .faq-list {
+        grid-template-columns: 1fr;
+    }
+
+    .keyword-grid {
+        grid-template-columns: 1fr;
     }
 
     /* Mobile Weapon Adjustments */

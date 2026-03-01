@@ -33,7 +33,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h4>{t('contact.location')}</h4>
-              <p>{t('contact.locationText')}</p>
+              <address className="contact-address">123 Innovation Street, Austin, TX 78701, United States</address>
             </div>
             <div className="contact-card">
               <div className="contact-icon">
@@ -43,7 +43,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h4>{t('contact.email')}</h4>
-              <p>{t('contact.emailText')}</p>
+              <p><a href="mailto:contact@astrakodes.com">contact@astrakodes.com</a></p>
             </div>
             <div className="contact-card">
               <div className="contact-icon">
@@ -52,7 +52,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h4>{t('contact.phone')}</h4>
-              <p>{t('contact.phoneText')}</p>
+              <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
             </div>
           </div>
           <form className="contact-form" onSubmit={handleSubmit}>
@@ -82,7 +82,7 @@ export default function Contact() {
               </svg>
             </button>
             {formStatus === 'success' && (
-              <div style={{ marginTop: '1rem', color: '#10b981', fontWeight: 'bold', textAlign: 'center' }}>
+              <div className="contact-success-message">
                 Message sent successfully!
               </div>
             )}

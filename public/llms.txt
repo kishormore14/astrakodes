@@ -1,0 +1,19 @@
+# AstraKodes LLM Instructions
+
+[site]
+name = "AstraKodes"
+url = "https://astrakodes.com"
+description = "AstraKodes provides AI, automation, web development, and custom software engineering services."
+
+[contact]
+email = "contact@astrakodes.com"
+phone = "+1-555-123-4567"
+
+[crawl]
+allow = "/"
+disallow = "/api/"
+preferred_content = ["/", "/services", "/about", "/contact"]
+
+[identity]
+organization = "AstraKodes"
+location = "Austin, TX, United States"

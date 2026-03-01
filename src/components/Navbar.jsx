@@ -35,7 +35,9 @@ export default function Navbar() {
       <div className="container">
         <div className="nav-content">
           <div className="logo">
-            <span className="logo-astra">Astra</span><span className="logo-kodes">Kodes</span>
+            <Link href="/" aria-label="AstraKodes Home">
+              <span className="logo-astra">Astra</span><span className="logo-kodes">Kodes</span>
+            </Link>
           </div>
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
             <li><a href="#home" onClick={(e) => scrollToSection(e, 'home')} className="nav-link">{t('nav.home')}</a></li>
@@ -43,12 +45,12 @@ export default function Navbar() {
             <li><a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="nav-link">{t('nav.about')}</a></li>
             <li><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="nav-link">{t('nav.contact')}</a></li>
           </ul>
-          
-          <div style={{ display: 'flex', alignItems: 'center' }}>
+
+          <div className="nav-controls">
             <LanguageSelector />
             <ThemeToggle />
-            <button 
-              className={`menu-toggle ${mobileMenuOpen ? 'active' : ''}`} 
+            <button
+              className={`menu-toggle ${mobileMenuOpen ? 'active' : ''}`}
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
             >
