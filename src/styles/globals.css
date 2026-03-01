@@ -1423,6 +1423,10 @@ section {
     margin-bottom: 0.35rem;
 }
 
+.local-links-card {
+    margin-top: 1rem;
+}
+
 .page-faq {
     padding: 0 0 var(--spacing-2xl);
 }

@@ -28,8 +28,9 @@ export default function Footer() {
             <div className="footer-column">
               <h4>{t('footer.company')}</h4>
               <ul>
-                <li><Link href="/#about">{t('footer.aboutUs')}</Link></li>
-                <li><Link href="/#contact">{t('footer.contact')}</Link></li>
+                <li><Link href="/about">{t('footer.aboutUs')}</Link></li>
+                <li><Link href="/contact">{t('footer.contact')}</Link></li>
+                <li><Link href="/services">Services</Link></li>
                 <li><Link href="/blog">Blog</Link></li>
               </ul>
             </div>
